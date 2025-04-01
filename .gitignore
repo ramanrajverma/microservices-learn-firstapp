@@ -16,3 +16,27 @@ Release/
 
 # Ignore NuGet packages
 packages/
+
+
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.db
+*.db-shm
+*.db-wal
+*.dtbcache.v2
+*.backup.json
+
+# Ignore Build and Debug files
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.FileListAbsolute.txt
+
+.vs/
+bin/
+obj
