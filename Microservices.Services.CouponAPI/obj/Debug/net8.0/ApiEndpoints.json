@@ -1,0 +1,80 @@
+[
+  {
+    "ContainingType": "Microservices.Services.CouponAPI.Controllers.CouponController",
+    "Method": "GetCoupons",
+    "RelativePath": "api/Coupon",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microservices.Services.CouponAPI.Controllers.CouponController",
+    "Method": "GetAllCoupons",
+    "RelativePath": "api/Coupon/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microservices.Services.CouponAPI.Controllers.CouponController",
+    "Method": "GetAllCoupons",
+    "RelativePath": "api/Coupon/all-coupons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microservices.Services.CouponAPI.Controllers.CouponController",
+    "Method": "Post",
+    "RelativePath": "api/Coupon/CreateCoupon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "couponDto",
+        "Type": "Microservices.Services.CouponAPI.Models.DTO.CouponDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microservices.Services.CouponAPI.Models.DTO.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Microservices.Services.CouponAPI.Controllers.CouponController",
+    "Method": "GetByCouponsCode",
+    "RelativePath": "api/Coupon/GetByCouponCode/{code}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

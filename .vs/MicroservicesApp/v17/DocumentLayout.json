@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA39E932-4679-47E5-96C7-60B3114027E1}|Microservice.Web\\Microservice.Web.csproj|i:\\dotnet\\archer-learn\\microservices\\micrservicesapptest1\\micrservicesapp\\microservice.web\\models\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA39E932-4679-47E5-96C7-60B3114027E1}|Microservice.Web\\Microservice.Web.csproj|solutionrelative:microservice.web\\models\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA39E932-4679-47E5-96C7-60B3114027E1}|Microservice.Web\\Microservice.Web.csproj|i:\\dotnet\\archer-learn\\microservices\\micrservicesapptest1\\micrservicesapp\\microservice.web\\utility\\staticdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA39E932-4679-47E5-96C7-60B3114027E1}|Microservice.Web\\Microservice.Web.csproj|solutionrelative:microservice.web\\utility\\staticdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA39E932-4679-47E5-96C7-60B3114027E1}|Microservice.Web\\Microservice.Web.csproj|i:\\dotnet\\archer-learn\\microservices\\micrservicesapptest1\\micrservicesapp\\microservice.web\\models\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA39E932-4679-47E5-96C7-60B3114027E1}|Microservice.Web\\Microservice.Web.csproj|solutionrelative:microservice.web\\models\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|i:\\dotnet\\archer-learn\\microservices\\micrservicesapptest1\\micrservicesapp\\microservices.services.couponapi\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|solutionrelative:microservices.services.couponapi\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|i:\\dotnet\\archer-learn\\microservices\\micrservicesapptest1\\micrservicesapp\\microservices.services.couponapi\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|solutionrelative:microservices.services.couponapi\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|i:\\dotnet\\archer-learn\\microservices\\micrservicesapptest1\\micrservicesapp\\microservices.services.couponapi\\models\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|solutionrelative:microservices.services.couponapi\\models\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|i:\\dotnet\\archer-learn\\microservices\\micrservicesapptest1\\micrservicesapp\\microservices.services.couponapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|solutionrelative:microservices.services.couponapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|i:\\dotnet\\archer-learn\\microservices\\micrservicesapptest1\\micrservicesapp\\microservices.services.couponapi\\models\\dto\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|solutionrelative:microservices.services.couponapi\\models\\dto\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|i:\\dotnet\\archer-learn\\microservices\\micrservicesapptest1\\micrservicesapp\\microservices.services.couponapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|solutionrelative:microservices.services.couponapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B88DA8CC-BDBF-40E7-8EE8-71605715A738}|Solution Items{B88DA8CC-BDBF-40E7-8EE8-71605715A738}|I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\learn.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B88DA8CC-BDBF-40E7-8EE8-71605715A738}|Solution Items{B88DA8CC-BDBF-40E7-8EE8-71605715A738}|solutionrelative:learn.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|i:\\dotnet\\archer-learn\\microservices\\micrservicesapptest1\\micrservicesapp\\microservices.services.couponapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|solutionrelative:microservices.services.couponapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|i:\\dotnet\\archer-learn\\microservices\\micrservicesapptest1\\micrservicesapp\\microservices.services.couponapi\\microservices.services.couponapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|solutionrelative:microservices.services.couponapi\\microservices.services.couponapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|i:\\dotnet\\archer-learn\\microservices\\micrservicesapptest1\\micrservicesapp\\microservices.services.couponapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|solutionrelative:microservices.services.couponapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|i:\\dotnet\\archer-learn\\microservices\\micrservicesapptest1\\micrservicesapp\\microservices.services.couponapi\\models\\dto\\coupondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}|Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.csproj|solutionrelative:microservices.services.couponapi\\models\\dto\\coupondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 115,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StaticDetails.cs",
+              "DocumentMoniker": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservice.Web\\Utility\\StaticDetails.cs",
+              "RelativeDocumentMoniker": "Microservice.Web\\Utility\\StaticDetails.cs",
+              "ToolTip": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservice.Web\\Utility\\StaticDetails.cs",
+              "RelativeToolTip": "Microservice.Web\\Utility\\StaticDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:15:05.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RequestDto.cs",
+              "DocumentMoniker": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservice.Web\\Models\\RequestDto.cs",
+              "RelativeDocumentMoniker": "Microservice.Web\\Models\\RequestDto.cs",
+              "ToolTip": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservice.Web\\Models\\RequestDto.cs",
+              "RelativeToolTip": "Microservice.Web\\Models\\RequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:12:08.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservice.Web\\Models\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "Microservice.Web\\Models\\ResponseDto.cs",
+              "ToolTip": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservice.Web\\Models\\ResponseDto.cs",
+              "RelativeToolTip": "Microservice.Web\\Models\\ResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:09:07.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MappingConfig.cs",
+              "DocumentMoniker": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\MappingConfig.cs",
+              "RelativeDocumentMoniker": "Microservices.Services.CouponAPI\\MappingConfig.cs",
+              "ToolTip": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\MappingConfig.cs",
+              "RelativeToolTip": "Microservices.Services.CouponAPI\\MappingConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:04:58.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Models\\DTO\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "Microservices.Services.CouponAPI\\Models\\DTO\\ResponseDto.cs",
+              "ToolTip": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Models\\DTO\\ResponseDto.cs",
+              "RelativeToolTip": "Microservices.Services.CouponAPI\\Models\\DTO\\ResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T04:59:36.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Microservices.Services.CouponAPI.http",
+              "DocumentMoniker": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.http",
+              "RelativeDocumentMoniker": "Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.http",
+              "ToolTip": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.http",
+              "RelativeToolTip": "Microservices.Services.CouponAPI\\Microservices.Services.CouponAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-31T04:46:34.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CouponController.cs",
+              "DocumentMoniker": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Controllers\\CouponController.cs",
+              "RelativeDocumentMoniker": "Microservices.Services.CouponAPI\\Controllers\\CouponController.cs",
+              "ToolTip": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Controllers\\CouponController.cs",
+              "RelativeToolTip": "Microservices.Services.CouponAPI\\Controllers\\CouponController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T04:38:47.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "Microservices.Services.CouponAPI\\appsettings.json",
+              "ToolTip": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\appsettings.json",
+              "RelativeToolTip": "Microservices.Services.CouponAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-31T04:03:42.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "learn.txt",
+              "DocumentMoniker": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\learn.txt",
+              "RelativeDocumentMoniker": "learn.txt",
+              "ToolTip": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\learn.txt",
+              "RelativeToolTip": "learn.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-31T00:22:20.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Microservices.Services.CouponAPI\\Program.cs",
+              "ToolTip": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Program.cs",
+              "RelativeToolTip": "Microservices.Services.CouponAPI\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T00:41:20.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Microservices.Services.CouponAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Microservices.Services.CouponAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T00:34:40.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CouponDto.cs",
+              "DocumentMoniker": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Models\\DTO\\CouponDto.cs",
+              "RelativeDocumentMoniker": "Microservices.Services.CouponAPI\\Models\\DTO\\CouponDto.cs",
+              "ToolTip": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Models\\DTO\\CouponDto.cs",
+              "RelativeToolTip": "Microservices.Services.CouponAPI\\Models\\DTO\\CouponDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T00:20:13.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Coupon.cs",
+              "DocumentMoniker": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Models\\Coupon.cs",
+              "RelativeDocumentMoniker": "Microservices.Services.CouponAPI\\Models\\Coupon.cs",
+              "ToolTip": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Models\\Coupon.cs",
+              "RelativeToolTip": "Microservices.Services.CouponAPI\\Models\\Coupon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T00:17:04.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Microservices.Services.CouponAPI\\Properties\\launchSettings.json",
+              "ToolTip": "I:\\DotNet\\ARCHER-LEARN\\Microservices\\MicrservicesAppTest1\\MicrservicesApp\\Microservices.Services.CouponAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Microservices.Services.CouponAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-31T00:13:48.054Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+
+
+DTO
+AutoMapper
+	AutoMapper.Extensions.Microsoft.DependencyInjection
+
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.tools
+Microsoft.AspNetCore.Authentication.JwtBearer
+Microsoft.EntityFrameworkCore.Tools
+
+
+
+PM> add-migration initila-mig-coupontodb
+PM> update-database

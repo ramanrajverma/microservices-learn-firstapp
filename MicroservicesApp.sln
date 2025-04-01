@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{4F5EBFA0-65C0-465F-9E58-A06C86A7B61A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{26C42FF7-648D-42F1-ADAE-F657EED56664}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{2B728DEE-D6B2-49C4-819A-6C70C0DAE996}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B7608D99-B6A9-443B-941B-276643CB92EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Services.CouponAPI", "Microservices.Services.CouponAPI\Microservices.Services.CouponAPI.csproj", "{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B88DA8CC-BDBF-40E7-8EE8-71605715A738}"
+	ProjectSection(SolutionItems) = preProject
+		learn.txt = learn.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Web", "Microservice.Web\Microservice.Web.csproj", "{EA39E932-4679-47E5-96C7-60B3114027E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA39E932-4679-47E5-96C7-60B3114027E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA39E932-4679-47E5-96C7-60B3114027E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA39E932-4679-47E5-96C7-60B3114027E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA39E932-4679-47E5-96C7-60B3114027E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E} = {B7608D99-B6A9-443B-941B-276643CB92EF}
+		{EA39E932-4679-47E5-96C7-60B3114027E1} = {4F5EBFA0-65C0-465F-9E58-A06C86A7B61A}
+	EndGlobalSection
+EndGlobal
