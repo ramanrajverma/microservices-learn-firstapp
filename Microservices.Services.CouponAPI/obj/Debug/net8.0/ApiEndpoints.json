@@ -2,7 +2,7 @@
   {
     "ContainingType": "Microservices.Services.CouponAPI.Controllers.CouponController",
     "Method": "GetCoupons",
-    "RelativePath": "api/Coupon",
+    "RelativePath": "api/coupon",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -12,7 +12,7 @@
   {
     "ContainingType": "Microservices.Services.CouponAPI.Controllers.CouponController",
     "Method": "GetAllCoupons",
-    "RelativePath": "api/Coupon/{id}",
+    "RelativePath": "api/coupon/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -28,7 +28,7 @@
   {
     "ContainingType": "Microservices.Services.CouponAPI.Controllers.CouponController",
     "Method": "GetAllCoupons",
-    "RelativePath": "api/Coupon/all-coupons",
+    "RelativePath": "api/coupon/all-coupons",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -38,7 +38,7 @@
   {
     "ContainingType": "Microservices.Services.CouponAPI.Controllers.CouponController",
     "Method": "Post",
-    "RelativePath": "api/Coupon/CreateCoupon",
+    "RelativePath": "api/coupon/CreateCoupon",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -64,7 +64,7 @@
   {
     "ContainingType": "Microservices.Services.CouponAPI.Controllers.CouponController",
     "Method": "GetByCouponsCode",
-    "RelativePath": "api/Coupon/GetByCouponCode/{code}",
+    "RelativePath": "api/coupon/GetByCouponCode/{code}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -76,5 +76,57 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microservices.Services.CouponAPI.Controllers.CouponController",
+    "Method": "Put",
+    "RelativePath": "api/coupon/ModifyCoupon",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "couponDto",
+        "Type": "Microservices.Services.CouponAPI.Models.DTO.CouponDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microservices.Services.CouponAPI.Models.DTO.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Microservices.Services.CouponAPI.Controllers.CouponController",
+    "Method": "Delete",
+    "RelativePath": "api/coupon/RemoveCoupon",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microservices.Services.CouponAPI.Models.DTO.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

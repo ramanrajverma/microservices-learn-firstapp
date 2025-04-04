@@ -13,3 +13,7 @@ Microsoft.EntityFrameworkCore.Tools
 
 PM> add-migration initila-mig-coupontodb
 PM> update-database
+
+Date: 02/04/2025
+	https://www.youtube.com/watch?v=Nw4AZs1kLAs&t=1s
+	nts - 1:35
