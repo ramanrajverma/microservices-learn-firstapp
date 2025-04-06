@@ -13,9 +13,14 @@ namespace Microservice.Web.Service
         {
             _baseService = baseService;
         }
-        public Task<ResponseDto?> CreateCouponAsync(CouponDto couponDto)
+        public async Task<ResponseDto?> CreateCouponAsync(CouponDto couponDto)
         {
-            throw new NotImplementedException();
+            return await _baseService.SendAsync(new RequestDto
+            {
+                ApiType = StaticDetails.ApiType.POST,
+                Data = couponDto,
+                Url = StaticDetails.CouponApiBase + "api/coupon/CreateCoupon"
+            });
         }
 
         public async Task<ResponseDto?> DeleteCouponAsync(int id)
@@ -23,7 +28,7 @@ namespace Microservice.Web.Service
             return await _baseService.SendAsync(new RequestDto
             {
                 ApiType = StaticDetails.ApiType.DELETE,
-                Url = StaticDetails.CouponApiBase + "/api/coupon/RemoveCoupon" + id
+                Url = StaticDetails.CouponApiBase + "api/coupon?id=" + id
             });
         }
 
@@ -41,7 +46,7 @@ namespace Microservice.Web.Service
             return await _baseService.SendAsync(new RequestDto
             {
                 ApiType = StaticDetails.ApiType.GET,
-                Url = StaticDetails.CouponApiBase + "/api/coupon/GetByCode/" + couponCode,
+                Url = StaticDetails.CouponApiBase + "api/coupon/GetByCode/" + couponCode,
             });
         }
 
@@ -50,13 +55,18 @@ namespace Microservice.Web.Service
             return await _baseService.SendAsync(new RequestDto
             {
                 ApiType = StaticDetails.ApiType.GET,
-                Url = StaticDetails.CouponApiBase + "/api/coupon/" + id
+                Url = StaticDetails.CouponApiBase + "api/coupon/" + id
             });
         }
 
-        public Task<ResponseDto?> UpdateCouponAsync(CouponDto couponDto)
+        public async Task<ResponseDto?> UpdateCouponAsync(CouponDto couponDto)
         {
-            throw new NotImplementedException();
+            return await _baseService.SendAsync(new RequestDto
+            {
+                ApiType = StaticDetails.ApiType.PUT,
+                Data = couponDto,
+                Url = StaticDetails.CouponApiBase + "api/coupon/ModifyCoupon"
+            });
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Text;
 using static Microservice.Web.Utility.StaticDetails;
 using System.Linq.Expressions;
 using System.Net;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 
 namespace Microservice.Web.Service
@@ -23,7 +23,7 @@ namespace Microservice.Web.Service
             try 
             {
                 HttpClient client = _clientFactory.CreateClient("MicroservicesApi");
-                HttpRequestMessage message = new HttpRequestMessage();
+                HttpRequestMessage message = new();
                 message.Headers.Add("Accept", "application/json");
 
                 //TODO: Add JWT Token
@@ -32,7 +32,7 @@ namespace Microservice.Web.Service
                 if (reqDto.Data != null)
                 {
                     message.Content = new StringContent(
-                        JsonSerializer.Serialize(reqDto.Data),
+                        JsonConvert.SerializeObject(reqDto.Data),
                         Encoding.UTF8,
                         "application/json"
                     );
@@ -85,7 +85,8 @@ namespace Microservice.Web.Service
                         };
                     default:
                         var apiContent = await apiResponse.Content.ReadAsStringAsync();
-                        var apiResponseDto = JsonSerializer.Deserialize<ResponseDto>(apiContent);
+                        var apiResponseDto = JsonConvert.DeserializeObject<ResponseDto>(apiContent);
+                        //var apiResponseDto = JsonSerializer.Deserializeo<ResponseDto>(apiContent);
                         return apiResponseDto;
                 }
             }
