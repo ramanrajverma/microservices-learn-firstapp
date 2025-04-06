@@ -5,7 +5,56 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Coupon": {
+    "/api/coupon": {
+      "get": {
+        "tags": [
+          "Coupon"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Coupon"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/coupon/all-coupons": {
       "get": {
         "tags": [
           "Coupon"
@@ -17,19 +66,7 @@
         }
       }
     },
-    "/api/Coupon/all-coupons": {
-      "get": {
-        "tags": [
-          "Coupon"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Coupon/{id}": {
+    "/api/coupon/{id}": {
       "get": {
         "tags": [
           "Coupon"
@@ -52,7 +89,7 @@
         }
       }
     },
-    "/api/Coupon/GetByCouponCode/{code}": {
+    "/api/coupon/GetByCouponCode/{code}": {
       "get": {
         "tags": [
           "Coupon"
@@ -74,8 +111,56 @@
         }
       }
     },
-    "/api/Coupon/CreateCoupon": {
+    "/api/coupon/CreateCoupon": {
       "post": {
+        "tags": [
+          "Coupon"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CouponDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CouponDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CouponDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/coupon/ModifyCoupon": {
+      "put": {
         "tags": [
           "Coupon"
         ],

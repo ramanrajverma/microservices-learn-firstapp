@@ -15,10 +15,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Services.Coup
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B88DA8CC-BDBF-40E7-8EE8-71605715A738}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		learn.txt = learn.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Web", "Microservice.Web\Microservice.Web.csproj", "{EA39E932-4679-47E5-96C7-60B3114027E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.AuthAPI", "Microservices.AuthAPI\Microservices.AuthAPI.csproj", "{E09C29C8-3908-4B6F-9400-7C6D62FA7638}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +37,10 @@ Global
 		{EA39E932-4679-47E5-96C7-60B3114027E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA39E932-4679-47E5-96C7-60B3114027E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA39E932-4679-47E5-96C7-60B3114027E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09C29C8-3908-4B6F-9400-7C6D62FA7638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09C29C8-3908-4B6F-9400-7C6D62FA7638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09C29C8-3908-4B6F-9400-7C6D62FA7638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09C29C8-3908-4B6F-9400-7C6D62FA7638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,5 +48,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E75B824E-A4D5-44F7-A0DA-FB8D4DF0190E} = {B7608D99-B6A9-443B-941B-276643CB92EF}
 		{EA39E932-4679-47E5-96C7-60B3114027E1} = {4F5EBFA0-65C0-465F-9E58-A06C86A7B61A}
+		{E09C29C8-3908-4B6F-9400-7C6D62FA7638} = {B7608D99-B6A9-443B-941B-276643CB92EF}
 	EndGlobalSection
 EndGlobal
