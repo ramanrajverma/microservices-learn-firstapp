@@ -25,3 +25,6 @@ PM> update-database
 
 PM> add-migration AddNameToAspNetUsers
 PM> update-database
+
+https://www.youtube.com/watch?v=Nw4AZs1kLAs&t=1s
+2:37
