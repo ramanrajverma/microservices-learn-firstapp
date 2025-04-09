@@ -1,4 +1,6 @@
 using Microservices.AuthAPI.Models;
+using Microservices.AuthAPI.Service;
+using Microservices.AuthAPI.Service.IService;
 using Microservices.Services.AuthAPI.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -13,10 +15,13 @@ builder.Services.AddDbContext<AppDbContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("sqlCon"));
 
 });
+builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("ApiSettings:JwtOptions")); //Configure the JWT options from appsettings.json
 //Below configuring the identity services
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()   //Default user was IdentityUser earlier, now I changed the Default use now is ApplicationUser
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
+builder.Services.AddScoped<IAuthService, AuthService>(); //Registering the AuthService
+builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>(); //Registering the JwtTokenGenerator
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
